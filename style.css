@@ -1,0 +1,276 @@
+*{
+    padding :0;
+    margin:0;
+    box-sizing :border-box;
+    text-decoration:none ;
+    font-size :1.2rem ;
+}
+
+
+#container {
+ width:1200px;
+    margin :0 auto;
+}
+
+header{   
+    display :flex ;
+    justify-content :space-between ;
+    background:#fff;
+    
+}
+
+.logo {
+    display :flex ;
+    padding :2rem ;
+}
+
+.logo .heading{
+    font-size :2rem ;
+    padding:0 1rem;
+}
+
+.email {
+    display :flex ;
+    flex-direction:column ;
+}
+
+.telephone {
+    display :flex ;
+    flex-direction :column ;
+    
+}
+
+.wrapper {
+    display :flex ;
+    padding :2rem;
+}
+.wrapper img{
+    margin :0 1.5rem ;
+}
+.wrapper p{
+    color :#828282;
+}
+.wrapper a{
+    color: #333;
+    font-weight :bold ;
+}
+
+
+.nav{
+    display :flex ;
+    align-items :center ;
+    justify-content :space-evenly ;
+    padding: 1rem 2rem 0 2rem ;
+    
+    
+}
+
+.nav-item:first-child {
+    background: #333;
+}
+
+.nav-item:last-child {
+    background: #333;
+}
+
+.nav-item:hover{
+background: #333;
+font-size: 1rem;
+}
+
+
+.nav-item:last-child:hover{
+    background: #FFAA33;
+    font-size: 1rem;
+    }
+
+
+    
+.nav-item:first-child:hover{
+    background: #FFAA33;
+    font-size: 1rem;
+    }
+
+.nav-item {
+   background:#FFAA33;
+    padding:1.2rem 2rem;
+    margin:0;
+}
+
+.nav a{
+    color: #fff;
+    font-size :1rem;
+    
+} 
+
+.hero-section{
+    display :flex ;
+   align-items :center ;
+    justify-content :space-between;
+    background-image:url(./Images/jeriden.jpg);
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat:no-repeat ;
+    bbackground-size:cover;
+   
+}
+.hero-text{
+    max-width :600;
+    padding :0 2rem ;
+}
+
+
+.hero-section .hero-text h3{
+    font-size :2rem ;
+    color: #fff;
+    text-transform :capitalize ;
+   padding :2rem 1.5rem;
+}
+
+.hero-section .hero-text p{
+    color: #fff;
+}
+
+.hero-section .cta{
+    background: rgba(0, 0, 0, 0.5);
+    margin: auto 50px;
+    padding:40px;
+    border-radius:5px ;
+    width: 500px;
+    height: 630px;
+    
+}
+
+.hero-section .cta h4{
+    color: #FFAA33;
+    text-transform :capitalize ;
+    font-size :1.5rem ;
+    text-align :center ;
+    font-weight :500;
+    padding-bottom :1rem;
+}
+
+.hero-section .cta p{
+    color:#fff ;
+    font-size:1rem ;
+    padding:10px  0;
+}
+
+
+
+form input {
+    margin: 10px 0;
+    border :none ;
+    padding:10px ;
+    width: 100%;
+    border-radius :5px ;
+    font-size :1rem ;
+}
+form textarea {
+    border:none ;
+    margin: 10px 0;
+    border-radius :5px ;   
+}
+
+}
+.hero-section .cta .btn{
+    border :none ;
+    color: #000;
+    text-align :center ;
+    width: 100%;
+    font-size :1rem ;
+    border-radius :5px ;
+    background: #FFAA33;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+
+%
+           ax-width:700px){
+    #container{
+     
+    
+    .hero-section {
+       display :block ;
+       height: 100vh;
+ }
+ .hero-section .cta{
+     height:100%;
+ }
+    
+}
+	font-size: 18px;
+	padding: 10px;
+	margin: 20px 0px;
+}
+.hero-section .cta .btn{
+    border :none ;
+    color: #000;
+    text-align :center ;
+    width: 100%;
+    font-size :1rem ;
+    border-radius :5px ;
+    background: #FFAA33;
+    padding: 10px;
+    margin: 20px 0;
+}
+nt: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background-color: #ddd;
+}
+.form-box input[type=checkbox]:checked+label:before {
+	content: "\2713";
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	line-height: 20px;
+}
+.form-box span {
+	font-size: 14px;
+}
+.form-box button {
+	background-color: deepskyblue;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+	padding: 10px;
+	margin: 20px 0px;
+}
+.hero-section .cta .btn{
+    border :none ;
+    color: #000;
+    text-align :center ;
+    width: 100%;
+    font-size :1rem ;
+    border-radius :5px ;
+    background: #FFAA33;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+
+:5px ;
+    background: #FFAA33;
+    padding: 10px;
+    margin: 20px 0;
+}
+in: 20px 0;
+}
+
+
+:5px ;
+    background: #FFAA33;
+    padding: 10px;
+    margin: 20px 0;
+}
